@@ -19,6 +19,7 @@
 		E608D6AC1946332D003289B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E608D6941946332D003289B8 /* UIKit.framework */; };
 		E608D6B41946332D003289B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E608D6B21946332D003289B8 /* InfoPlist.strings */; };
 		E608D6B61946332D003289B8 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E608D6B51946332D003289B8 /* ToDoListTests.m */; };
+		E67EDA421946410B0031A760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67EDA411946410B0031A760 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E608D6B11946332D003289B8 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		E608D6B31946332D003289B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E608D6B51946332D003289B8 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		E67EDA411946410B0031A760 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E608D69F1946332D003289B8 /* AppDelegate.h */,
 				E608D6A01946332D003289B8 /* AppDelegate.m */,
+				E67EDA411946410B0031A760 /* Main.storyboard */,
 				E608D6A21946332D003289B8 /* Images.xcassets */,
 				E608D6971946332D003289B8 /* Supporting Files */,
 			);
@@ -221,6 +224,7 @@
 			files = (
 				E608D69B1946332D003289B8 /* InfoPlist.strings in Resources */,
 				E608D6A31946332D003289B8 /* Images.xcassets in Resources */,
+				E67EDA421946410B0031A760 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				E608D6BB1946332D003289B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E608D6BC1946332D003289B8 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				E608D6BE1946332D003289B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
