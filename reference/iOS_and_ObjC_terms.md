@@ -38,6 +38,7 @@
    2. implementation: occurs in `.m` file; "includes the executable code for each method declared in the interface"
  1. instance method: marked with `-`; can be called on an object of the class
  1. class method: marked with `+`: can be called on the class itself
+ 1. in order to test for compilations errors, build with command-b
  
 ### References
 
